@@ -1,0 +1,48 @@
+.cover {
+    margin-top: 4.5rem;
+}
+
+.cover-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 744px;
+    text-align: center;
+    background-color: #f3ede2;
+    padding: 40px 40px;
+    border-radius: 20px;
+    margin-top: -48px;
+}
+
+.cover-icon {
+    position: relative;
+    margin-bottom: 2.8em;
+}
+
+.cover-icon-image {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 50px 100px -30px;
+}
+
+.cover-icon-image.white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.cover-description {
+    font-size: 1.8rem;
+    line-height: 1.7;
+}
+
+.cover-cta {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.cover-cta .button {
+    margin: 0 0.5rem;
+}
